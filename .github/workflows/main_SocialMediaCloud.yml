@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'SocialMediaCloud'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a687da3cea324405849184765839ac49 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d67bff23e14942fab60698c8a48fb243 }}
         package: .
