@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useQuery } from '@apollo/react-hooks';
 import { Grid, Transition } from 'semantic-ui-react';
-
+import { Image } from 'semantic-ui-react';
 import { AuthContext } from '../context/auth';
 import PostCard from '../components/PostCard';
 import PostForm from '../components/PostForm';
@@ -16,6 +16,7 @@ function Home() {
 
   return (
     <Grid columns={3}>
+    <Image src={logo} size='small' centered/>
       <Grid.Row className="page-title">
         <h1>Recent Posts</h1>
       </Grid.Row>
